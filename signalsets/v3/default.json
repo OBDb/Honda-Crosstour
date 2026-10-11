@@ -68,6 +68,10 @@
   "signals": [
     {"id": "CROSSTOUR_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
   ]},
+{ "hdr": "DA60", "rax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2011 },
+  "signals": [
+    {"id": "CROSSTOUR_AAT", "path": "Climate", "fmt": {"bix": 132, "len": 12, "max": 2047, "min": -40, "sign": true, "nullmax": 141, "unit": "fahrenheit" }, "name": "Outside air temperature"}
+  ]},
 { "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7060"}, "freq": 30,
   "signals": [
     {"id": "CROSSTOUR_MAINT_OIL_FLT",   "path": "Engine", "fmt": {"bix": 112, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, oil & filter"},
