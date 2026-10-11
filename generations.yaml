@@ -1,0 +1,8 @@
+references:
+  - "https://en.wikipedia.org/wiki/Honda_Crosstour"
+
+generations:
+  - name: "First Generation"
+    start_year: 2010
+    end_year: 2015
+    description: "A fastback crossover based on the eighth-generation Accord, with the 3.5 L J35 V6 and from 2012 a 2.4 L K24."
